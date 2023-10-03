@@ -1,0 +1,48 @@
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/838/874/desktop-wallpaper-the-batman-robert-pattinson-the-batman-2022-robert-pattinson-thumbnail.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2022/03/Zoe-Kravitz.jpg?quality=90&strip=info&w=900&h=600&crop=1')
+}
+
+.banner-3 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg')
+}

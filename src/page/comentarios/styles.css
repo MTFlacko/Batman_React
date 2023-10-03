@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.box1 {
+    background-image: url('./../../assets/Bamm.jpg');
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+    margin: 15px 5% 10px 5%;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border-radius: 15px;
+    margin: 15px 5% 10px 5%;
+}
+
+.coment-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 20px 5%;
+    width: 100%;
+    color: #fff;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.521);
+    
+}
+
+.coment {
+    border-radius: 10px;    
+    box-shadow: 0px 0px 4px 0px rgba(255,255,255,1);
+    padding: 10px;    
+    background-color: #250000bd;  
+    transition: .3s;
+}
+
+
+.coment-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.coment-user {
+    width: 50%;
+    align-items: flex-start;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.coment-rate {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.coment-text {
+    font-weight: 300;
+    padding: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+
+@media(max-width: 768px){
+.coment-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+}
